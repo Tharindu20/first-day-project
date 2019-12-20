@@ -1,7 +1,7 @@
 /* index.html css */
 
 .human-nav-bar {
-    margin-left: 49%;
+    margin-left: 50%;
   }
   
   .human-index-div {
@@ -12,6 +12,18 @@
     color: white;
     padding: 10px;
   }
+
+  .main-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+
+  }
+  
+
+
 
   /* features.html css */
 
