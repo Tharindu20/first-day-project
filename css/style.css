@@ -38,4 +38,16 @@
   .human-features-form {
     margin-right: 21%;
   }
+
+  /* contact-us.html css */
+
+  h1{
+    font-size: 40px;
+    margin-top: 250px;
+  }
+
+  p{
+    font-size: 17px;
+  }
+  
   
