@@ -50,4 +50,10 @@
     font-size: 17px;
   }
   
+
+  /* Common css */
+
+  .human-removed {
+    display: none;
+  }
   

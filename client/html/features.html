@@ -66,10 +66,18 @@
                     <label>Your suggestion</label>
                     <textarea class="form-control" rows="3"></textarea>
                   </div>
-                  <button type="submit" class="btn btn-outline-primary">
+                  <button id="featureSubmitBtn" type="button" class="btn btn-outline-primary">Submit</button>
+
+                  <button type="submit" class="btn btn-outline-primary">'</button>
                     Submit
                   </button>
                 </form>
+
+                  <div class="featureLoadingDiv" class="human-removed">
+                    <img src="../assets/Spinner.gif" alt="loader"> 
+                    <p><i>Sending data to our server...</i></p>
+                  </div>
+                  
               </div>
               <div class="col-6">
                 <div class="card">
@@ -101,4 +109,6 @@
       </footer>
     
 </body>
+
+<script src="../js/feature.js"></script>
 </html>
